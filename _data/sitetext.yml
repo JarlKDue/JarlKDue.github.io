@@ -3,9 +3,7 @@ header:
     text: Check out some of the examples in the Portfolio Section.
     button: Generate Project
     #buttonlink: "#services" # "#{section}" or "URL/page link"
-    buttonlink: "http://172.19.121.77:8080/job/generate-project-pipeline/buildWithParameters?token=1122a448df430a8c36dc8b159cb4bb7356&group=test&projectName=testproject"
-    button2: Download Generated Project
-    button2link: "http://172.19.121.77:8080/job/generate-project-pipeline/22/artifact/generated-project.zip"
+    buttonlink: "/cicd"
 
 services:
     title: "Services"
