@@ -1,9 +1,11 @@
 header:
     title: Welcome to my examples page
     text: Check out some of the examples in the Portfolio Section.
-    button: Impress Me!
+    button: Generate Project
     #buttonlink: "#services" # "#{section}" or "URL/page link"
-    buttonlink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    buttonlink: "http://172.19.121.77:8080/job/generate-project-pipeline/buildWithParameters?token=1122a448df430a8c36dc8b159cb4bb7356&group=test&projectName=testproject"
+    button2: Download Generated Project
+    button2link: "http://172.19.121.77:8080/job/generate-project-pipeline/22/artifact/generated-project.zip"
 
 services:
     title: "Services"
@@ -61,23 +63,23 @@ about:
     text: "our story"
     section: about
 
-#clients:
-#    section: clients
-#    max-height: 100px
-#    horizontal-scrolling: "" #"yes/no"
-#    list:
-#      - title: "envato"
-#        url: https://github.com/raviriley/agency-jekyll-theme
-#        logo: assets/img/clients/envato.jpg
-#      - title: "designmodo"
-#        url: https://github.com/raviriley/agency-jekyll-theme
-#        logo: assets/img/clients/designmodo.jpg
-#      - title: "themeforest"
-#        url: https://github.com/raviriley/agency-jekyll-theme
-#        logo: assets/img/clients/themeforest.jpg
-#      - title: "Creative Market"
-#        url: https://github.com/raviriley/agency-jekyll-theme
-#        logo: assets/img/clients/creative-market.jpg
+clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
     
 team:
     title: "About Me"
@@ -95,11 +97,16 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-          
+
 contact:
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"
     section: contact
+
+form:
+  title: "Form Us"
+  text: "Lorem ipsum or call 123456789"
+  section: /about/
     
 footer:
     legal: "Privacy Policy"
